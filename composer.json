@@ -1,0 +1,23 @@
+{
+    "name": "n2neuron/acts-as-list",
+    "description": "",
+    "authors": [
+        {
+            "name": "",
+            "email": ""
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "N2neuron\\ActsAsList": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
